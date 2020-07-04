@@ -36,6 +36,12 @@ Now (thanks to embii74) vlmcsd process send logs to docker.
 >cscript ospp.vbs /act  
 >cscript ospp.vbs /dstatusall  
 
+Проверить вариант
+cscript //nologo %windir%\system32\slmgr.vbs /ipk xxxxx-xxxxx-xxxxx-xxxxx-xxxxx  
+cscript //nologo %windir%\system32\slmgr.vbs /skms kmsms.undo.it  
+cscript //nologo %windir%\system32\slmgr.vbs /ato  
+
+
 ## Sources
 > https://forums.mydigitallife.info/threads/50234-Emulated-KMS-Servers-on-non-Windows-platforms  
 https://github.com/Wind4/vlmcsd
